@@ -5,9 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body class="bg-[#404A65]">
-        <main></main>
+        <main class="flex flex-col justify-center items-center h-screen gap-10">
+            <h1
+                class="kanit-font text-[48px] md:text-[64px] font-semibold text-[#ECEDF0]"
+            >
+                Flip a Coin Game
+            </h1>
+            <p
+                class="kanit-font text-[16px] md:text-[24px] font-semibold text-[#ECEDF0]"
+            >
+                Press the coin or the button to flip the coin
+            </p>
+            <img src="./assets/heads.svg" alt="" />
+            <img src="./assets/shadow.svg" alt="" />
+            <p class="kanit-font font-semibold text-[#ECEDF0] text-[24px]">
+                Heads
+            </p>
+            <button
+                class="kanit-font font-semibold text-[#ECEDF0] text-[24px] px-8 py-4 bg-[#1F6FB0] rounded-lg"
+            >
+                Random
+            </button>
+        </main>
     </body>
 </html>
